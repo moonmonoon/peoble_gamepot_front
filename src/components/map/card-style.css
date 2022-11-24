@@ -1,0 +1,30 @@
+body{
+  background: radial-gradient(#e5e5e5,#ffff, #e5e5e5);
+}
+
+.card{
+  margin: 5%;
+  border-radius: 10%;
+  width: 95%;
+}
+
+.card:hover{
+  box-shadow: 5px 10px 20px 1px rgba(0,0,0,0.253) !important;
+}
+
+.game-info{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.place-info{
+  display: flex;
+  align-items: flex-start;
+}
+.img{
+  margin: 0;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+} 

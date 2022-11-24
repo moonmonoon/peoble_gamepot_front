@@ -1,0 +1,7 @@
+.col{
+    width: 49%;
+    display: inline;
+}
+.row{
+    display: flex;
+}
